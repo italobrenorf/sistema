@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(99, 131, 147);
+}
+
+header {
+    background-color: rgb(72, 100, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 120px;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav > a:link {
+    text-decoration: none;
+}
+
+header nav > a:hover {
+    color: lightblue;
+}
+
+a {
+    color: rgb(48, 48, 48);
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    height: 545px;
+    width: 900px;
+    background-color: rgb(220, 220, 220);
+    margin: 20px;
+}
+
+aside {
+    height: 545px;
+    background-color: rgb(220, 220, 220);
+    margin: 20px;
+    width: 500px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(72, 100, 114);
+}
+
+.main {
+    display: flex;
+}
+
+.main > aside {
+  flex: 1;
+}
+
+.main > section {
+    flex: 2;
+}
+
+h3 {
+    text-align: center;
+}
+
+#nome {
+    width: 50%;
+}
+
+#endereco {
+    width: 50%;
+}
+
+#idade {
+    width: 50%;
+}
+
+.cadastro {
+    margin-left: 35%; 
+    margin-top: 1%;
+}
+
+.tabela {
+    margin-left: 17%; 
+    margin-top: 5%;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border: 2px rgba(0, 0, 0, 0.263) solid;
+  }
+  
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  width: 30%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  text-align: left;
+  background-color: rgb(72, 100, 114);
+  color: white;
+}
+
+.conteudo {
+    padding: 20px;
+    height: 540px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "dados dadosp";
+}
+
+.dados {
+    grid-area: dados;
+    background-color: rgb(220, 220, 220);
+}
+
+.dadosp {
+    grid-area: dadosp;
+    background-color: rgb(220, 220, 220);
+}
